@@ -15,3 +15,6 @@ console.log(result);
 let edIndex = teachers.indexOf("Ed");
 delete teachers[edIndex];
 console.log(teachers);
+
+teachers.splice(5, 1);
+console.log(teachers);
